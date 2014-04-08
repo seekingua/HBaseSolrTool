@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-03-27 10:46:22}
+ * @Author: zhengde zhou {2014-03-27 10:46:22}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: util
@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
 public class Util {
 
 	/**
-	 * @Author: seeker {2014-04-08 3:11:50}
+	 * @Author: zhengde zhou {2014-04-08 3:11:50}
 	 * @Version：
 	 * @Title: findGetMethod
 	 * @Description:
@@ -41,7 +41,7 @@ public class Util {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 3:11:41}
+	 * @Author: zhengde zhou {2014-04-08 3:11:41}
 	 * @Version：
 	 * @Title: getFromField
 	 * @Description:
@@ -61,7 +61,7 @@ public class Util {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 3:11:29}
+	 * @Author: zhengde zhou {2014-04-08 3:11:29}
 	 * @Version：
 	 * @Title: setToField
 	 * @Description:
@@ -77,7 +77,7 @@ public class Util {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 3:11:10}
+	 * @Author: zhengde zhou {2014-04-08 3:11:10}
 	 * @Version：
 	 * @Title: methodFromField
 	 * @Description:
@@ -92,7 +92,7 @@ public class Util {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 3:11:00}
+	 * @Author: zhengde zhou {2014-04-08 3:11:00}
 	 * @Version：
 	 * @Title: findSetMethod
 	 * @Description:

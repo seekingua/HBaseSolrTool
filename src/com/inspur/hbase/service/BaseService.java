@@ -10,7 +10,7 @@ import com.inspur.hbase.schema.Page;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-03-26 4:10:20}
+ * @Author: zhengde zhou {2014-03-26 4:10:20}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: BaseService
@@ -21,7 +21,7 @@ import com.inspur.hbase.schema.Page;
  */
 public interface BaseService<T> {
 	/**
-	 * @Author: seeker {2014-03-28 9:53:41}
+	 * @Author: zhengde zhou {2014-03-28 9:53:41}
 	 * @Version：
 	 * @Title: createTable
 	 * @Description:
@@ -30,7 +30,7 @@ public interface BaseService<T> {
 	public void createTable();
 
 	/**
-	 * @Author: seeker {2014-03-28 9:53:44}
+	 * @Author: zhengde zhou {2014-03-28 9:53:44}
 	 * @Version：
 	 * @Title: createTableIFNotExists
 	 * @Description:
@@ -39,7 +39,7 @@ public interface BaseService<T> {
 	public void createTableIFNotExists();
 
 	/**
-	 * @Author: seeker {2014-03-28 9:53:58}
+	 * @Author: zhengde zhou {2014-03-28 9:53:58}
 	 * @Version：
 	 * @Title: deleteTable
 	 * @Description:
@@ -48,7 +48,7 @@ public interface BaseService<T> {
 	public void deleteTable();
 
 	/**
-	 * @Author: seeker {2014-03-28 9:53:49}
+	 * @Author: zhengde zhou {2014-03-28 9:53:49}
 	 * @Version：
 	 * @Title: deleteByIdHBase
 	 * @Description:
@@ -58,7 +58,7 @@ public interface BaseService<T> {
 	public void deleteByIdHBase(String rowkey);
 
 	/**
-	 * @Author: seeker {2014-03-28 2:08:37}
+	 * @Author: zhengde zhou {2014-03-28 2:08:37}
 	 * @Version：
 	 * @Title: deleteByIdSolr
 	 * @Description:
@@ -68,7 +68,7 @@ public interface BaseService<T> {
 	public void deleteByIdSolr(String rowkey);
 
 	/**
-	 * @Author: seeker {2014-03-28 2:08:34}
+	 * @Author: zhengde zhou {2014-03-28 2:08:34}
 	 * @Version：
 	 * @Title: deleteByIdBoth
 	 * @Description:
@@ -78,7 +78,7 @@ public interface BaseService<T> {
 	public void deleteByIdBoth(String rowkey);
 
 	/**
-	 * @Author: seeker {2014-03-27 12:52:40}
+	 * @Author: zhengde zhou {2014-03-27 12:52:40}
 	 * @Version：
 	 * @Title: saveHBase
 	 * @Description:
@@ -88,7 +88,7 @@ public interface BaseService<T> {
 	public void saveHBase(T data);
 
 	/**
-	 * @Author: seeker {2014-03-28 2:56:11}
+	 * @Author: zhengde zhou {2014-03-28 2:56:11}
 	 * @Version：
 	 * @Title: saveSolr
 	 * @Description:
@@ -98,7 +98,7 @@ public interface BaseService<T> {
 	public void saveSolr(T data);
 
 	/**
-	 * @Author: seeker {2014-03-28 2:56:14}
+	 * @Author: zhengde zhou {2014-03-28 2:56:14}
 	 * @Version：
 	 * @Title: saveBoth
 	 * @Description:
@@ -108,7 +108,7 @@ public interface BaseService<T> {
 	public void saveBoth(T data);
 
 	/**
-	 * @Author: seeker {2014-03-28 9:53:55}
+	 * @Author: zhengde zhou {2014-03-28 9:53:55}
 	 * @Version：
 	 * @Title: updateHBase
 	 * @Description:
@@ -118,7 +118,7 @@ public interface BaseService<T> {
 	public void updateHBase(T data);
 
 	/**
-	 * @Author: seeker {2014-03-28 2:09:30}
+	 * @Author: zhengde zhou {2014-03-28 2:09:30}
 	 * @Version：
 	 * @Title: updateSolr
 	 * @Description:
@@ -128,7 +128,7 @@ public interface BaseService<T> {
 	public void updateSolr(T data);
 
 	/**
-	 * @Author: seeker {2014-03-28 2:52:47}
+	 * @Author: zhengde zhou {2014-03-28 2:52:47}
 	 * @Version：
 	 * @Title: updateBoth
 	 * @Description:
@@ -138,7 +138,7 @@ public interface BaseService<T> {
 	public void updateBoth(T data);
 
 	/**
-	 * @Author: seeker {2014-04-08 9:55:47}
+	 * @Author: zhengde zhou {2014-04-08 9:55:47}
 	 * @Version：
 	 * @Title: findAll
 	 * @Description:
@@ -150,7 +150,7 @@ public interface BaseService<T> {
 	public List<T> findAll(byte[] startRow, byte[] stopRow);
 
 	/**
-	 * @Author: seeker {2014-04-08 9:55:38}
+	 * @Author: zhengde zhou {2014-04-08 9:55:38}
 	 * @Version：
 	 * @Title: findByFilter
 	 * @Description:
@@ -163,7 +163,7 @@ public interface BaseService<T> {
 	public List<T> findByFilter(Filter filter, byte[] startRow, byte[] stopRow);
 
 	/**
-	 * @Author: seeker {2014-03-27 12:50:26}
+	 * @Author: zhengde zhou {2014-03-27 12:50:26}
 	 * @Version：
 	 * @Title: findById
 	 * @Description:
@@ -174,7 +174,7 @@ public interface BaseService<T> {
 	public T findById(String id);
 
 	/**
-	 * @Author: seeker {2014-04-08 2:24:01}
+	 * @Author: zhengde zhou {2014-04-08 2:24:01}
 	 * @Version：
 	 * @Title: findBySolr
 	 * @Description:
@@ -188,7 +188,7 @@ public interface BaseService<T> {
 	public List<T> findBySolr(String[] fieldArray, String[] filterArray, String orderField, SolrQuery.ORDER order);
 
 	/**
-	 * @Author: seeker {2014-04-08 10:52:25}
+	 * @Author: zhengde zhou {2014-04-08 10:52:25}
 	 * @Version：
 	 * @Title: pageBySolr
 	 * @Description:

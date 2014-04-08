@@ -22,7 +22,7 @@ import org.slf4j.LoggerFactory;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08 3:05:12}
+ * @Author: zhengde zhou {2014-04-08 3:05:12}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: HBaseSolrProcessor

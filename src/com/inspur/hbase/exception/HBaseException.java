@@ -3,7 +3,7 @@ package com.inspur.hbase.exception;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08 11:28:50}
+ * @Author: zhengde zhou {2014-04-08 11:28:50}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: HBaseException

@@ -31,7 +31,7 @@ import com.inspur.hbase.util.Util;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08 11:31:02}
+ * @Author: zhengde zhou {2014-04-08 11:31:02}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: HBaseWrap
@@ -58,7 +58,7 @@ public class HBaseWrap<T> {
 	private Value rowkey;
 
 	/**
-	 * @Author: seeker {2014-04-08 12:56:02}
+	 * @Author: zhengde zhou {2014-04-08 12:56:02}
 	 * @Version：
 	 * @Description:
 	 * 
@@ -77,7 +77,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 12:53:01}
+	 * @Author: zhengde zhou {2014-04-08 12:53:01}
 	 * @Version：
 	 * @Title: init
 	 * @Description:
@@ -120,7 +120,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 12:52:26}
+	 * @Author: zhengde zhou {2014-04-08 12:52:26}
 	 * @Version：
 	 * @Title: getTableDescriptor
 	 * @Description:
@@ -137,7 +137,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 12:52:44}
+	 * @Author: zhengde zhou {2014-04-08 12:52:44}
 	 * @Version：
 	 * @Title: getFamilyQualifier
 	 * @Description:
@@ -155,7 +155,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 1:23:00}
+	 * @Author: zhengde zhou {2014-04-08 1:23:00}
 	 * @Version：
 	 * @Title: getObject
 	 * @Description:
@@ -186,7 +186,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 1:43:58}
+	 * @Author: zhengde zhou {2014-04-08 1:43:58}
 	 * @Version：
 	 * @Title: setQualifierData
 	 * @Description:
@@ -233,7 +233,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-03-27 12:35:33}
+	 * @Author: zhengde zhou {2014-03-27 12:35:33}
 	 * @Version：
 	 * @Title: saveHBase
 	 * @Description:
@@ -254,7 +254,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-03-28 4:01:48}
+	 * @Author: zhengde zhou {2014-03-28 4:01:48}
 	 * @Version：
 	 * @Title: saveSolr
 	 * @Description:
@@ -276,7 +276,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-03-28 4:01:32}
+	 * @Author: zhengde zhou {2014-03-28 4:01:32}
 	 * @Version：
 	 * @Title: updateSolr
 	 * @Description:
@@ -304,7 +304,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 9:58:26}
+	 * @Author: zhengde zhou {2014-04-08 9:58:26}
 	 * @Version：
 	 * @Title: findAll
 	 * @Description:
@@ -343,7 +343,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 9:58:38}
+	 * @Author: zhengde zhou {2014-04-08 9:58:38}
 	 * @Version：
 	 * @Title: findByFilter
 	 * @Description:
@@ -369,7 +369,7 @@ public class HBaseWrap<T> {
 	}
 
 	/**
-	 * @Author: seeker {2014-03-27 12:47:37}
+	 * @Author: zhengde zhou {2014-03-27 12:47:37}
 	 * @Version：
 	 * @Title: findById
 	 * @Description:

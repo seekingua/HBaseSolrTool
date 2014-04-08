@@ -5,7 +5,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-03-27 11:39:01}
+ * @Author: zhengde zhou {2014-03-27 11:39:01}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: ValueFactory
@@ -21,7 +21,7 @@ public class ValueFactory {
 	static Class<String> STRING = String.class;
 
 	/**
-	 * @Author: seeker {2014-03-28 6:14:32}
+	 * @Author: zhengde zhou {2014-03-28 6:14:32}
 	 * @Version：
 	 * @Title: Create
 	 * @Description:
@@ -49,7 +49,7 @@ public class ValueFactory {
 	}
 
 	/**
-	 * @Author: seeker {2014-03-28 6:14:17}
+	 * @Author: zhengde zhou {2014-03-28 6:14:17}
 	 * @Version：
 	 * @Title: CreateObject
 	 * @Description:
@@ -80,7 +80,7 @@ public class ValueFactory {
 	}
 
 	/**
-	 * @Author: seeker {2014-03-28 6:14:25}
+	 * @Author: zhengde zhou {2014-03-28 6:14:25}
 	 * @Version：
 	 * @Title: TypeCreate
 	 * @Description:

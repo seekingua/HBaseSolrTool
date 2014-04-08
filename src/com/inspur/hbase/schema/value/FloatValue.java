@@ -5,7 +5,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-03-27 11:38:14}
+ * @Author: zhengde zhou {2014-03-27 11:38:14}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: FloatValue

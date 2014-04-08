@@ -24,7 +24,7 @@ import com.inspur.hbase.util.Util;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08 1:47:42}
+ * @Author: zhengde zhou {2014-04-08 1:47:42}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: BaseServiceImpl
@@ -202,7 +202,7 @@ public class BaseServiceImpl<T> implements BaseService<T> {
 				orderField = hbaseWrap.getRowkeyField().getName();
 				order = SolrQuery.ORDER.desc;
 			}
-			SolrDocumentList sdl = hsResp.pageBySolr(orderField, filterArray, orderField, order, page);
+			SolrDocumentList sdl = hsResp.pageBySolr(hbaseWrap.getRowkeyField().getName(), filterArray, orderField, order, page);
 			List<Get> getList = new ArrayList<Get>();
 			Get get = null;
 			for (SolrDocument solrDocument : sdl) {

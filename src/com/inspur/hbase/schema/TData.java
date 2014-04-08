@@ -11,7 +11,7 @@ import com.inspur.hbase.schema.value.Value;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08 3:07:04}
+ * @Author: zhengde zhou {2014-04-08 3:07:04}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: TData
@@ -55,7 +55,7 @@ public class TData {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 3:07:27}
+	 * @Author: zhengde zhou {2014-04-08 3:07:27}
 	 * @Version：
 	 * @Title: add
 	 * @Description:
@@ -69,7 +69,7 @@ public class TData {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 3:07:49}
+	 * @Author: zhengde zhou {2014-04-08 3:07:49}
 	 * @Version：
 	 * @Title: setPutValue
 	 * @Description:

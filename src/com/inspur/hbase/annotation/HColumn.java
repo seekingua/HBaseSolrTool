@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08 11:28:37}
+ * @Author: zhengde zhou {2014-04-08 11:28:37}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: HColumn

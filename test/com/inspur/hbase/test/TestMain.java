@@ -31,7 +31,7 @@ public class TestMain {
 			String[] type1Array = new String[] { "0", "1", "2" };
 			String[] type2Array = new String[] { "A", "B" };
 			String[] type3Array = new String[] { "T", "F" };
-			for (int i = 0; i < 200; i++) {
+			for (int i = 0; i < 100; i++) {
 				Float rand = new Random().nextFloat() * 10;
 				Case insert = new Case();
 				insert.setId(String.valueOf(new Date().getTime()));
@@ -42,12 +42,12 @@ public class TestMain {
 				caseService.saveBoth(insert);
 			}
 
-			// delete data from hbase and solr, need real id for replacing "1396963284853"
-			caseService.deleteByIdBoth("1396963284853");
+			// delete data from hbase and solr, need real id for replacing "1397006540464"
+			caseService.deleteByIdBoth("1397006540464");
 
-			// update for hbase and solr, need real id for replacing "1396963420784"
+			// update for hbase and solr, need real id for replacing "1397006544770"
 			Case update = new Case();
-			update.setId("1396963420784");
+			update.setId("1397006544770");
 			update.setCode("024");
 			update.setType1("2");
 			update.setType2("A");
@@ -55,12 +55,12 @@ public class TestMain {
 			update.setDate(new Date().toString());
 			caseService.updateBoth(update);
 
-			// find data by id, need real id for replacing "1396963420784"
-			Case caseTemp = caseService.findById("1396963420784");
+			// find data by id, need real id for replacing "1397006544770"
+			Case caseTemp = caseService.findById("1397006544770");
 			System.out.println(caseTemp.toString());
 
-			// find all data with start and stop, need real id for replacing "1396963418104" and "1396963421392"
-			List<Case> caseList = caseService.findAll(Bytes.toBytes("1396963418104"), Bytes.toBytes("1396963421392"));
+			// find all data with start and stop, need real id for replacing "1397006548695" and "1397006549900"
+			List<Case> caseList = caseService.findAll(Bytes.toBytes("1397006548695"), Bytes.toBytes("1397006549900"));
 			for (Case caseStat : caseList) {
 				System.out.println(caseStat.toString());
 			}
@@ -71,8 +71,8 @@ public class TestMain {
 				System.out.println(caseStat.toString());
 			}
 
-			// find by hbase with custom filter, need real id for replacing "1396963418742" and "1396963418104" and "1396963421392"
-			List<Case> caseList2 = caseService.findByFilter(new RowFilter(CompareFilter.CompareOp.LESS_OR_EQUAL, new BinaryComparator(Bytes.toBytes("1396963418742"))), Bytes.toBytes("1396963418104"), Bytes.toBytes("1396963421392"));
+			// find by hbase with custom filter, need real id for replacing "1397006549900" and "1397006529900" and "1397006569900"
+			List<Case> caseList2 = caseService.findByFilter(new RowFilter(CompareFilter.CompareOp.LESS_OR_EQUAL, new BinaryComparator(Bytes.toBytes("1397006549900"))), Bytes.toBytes("1397006529900"), Bytes.toBytes("1397006569900"));
 			for (Case caseStat : caseList2) {
 				System.out.println(caseStat.toString());
 			}
@@ -92,7 +92,6 @@ public class TestMain {
 					System.out.println(caseStat.toString());
 				}
 			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

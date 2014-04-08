@@ -3,7 +3,7 @@ package com.inspur.hbase.schema;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08 3:06:11}
+ * @Author: zhengde zhou {2014-04-08 3:06:11}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: DataType

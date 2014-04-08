@@ -32,7 +32,7 @@ import com.inspur.hbase.schema.Page;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08  2:21:03}
+ * @Author: zhengde zhou {2014-04-08  2:21:03}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: HBaseSolrRespository
@@ -43,7 +43,7 @@ import com.inspur.hbase.schema.Page;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08 2:22:47}
+ * @Author: zhengde zhou {2014-04-08 2:22:47}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: HBaseSolrRespository
@@ -65,7 +65,7 @@ public class HBaseSolrRespository {
 	private static final Configuration conf = HBaseConfiguration.create();
 
 	/**
-	 * @Author: seeker {2014-04-08 2:21:13}
+	 * @Author: zhengde zhou {2014-04-08 2:21:13}
 	 * @Version：
 	 * @Description:
 	 * 
@@ -91,7 +91,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:21:22}
+	 * @Author: zhengde zhou {2014-04-08 2:21:22}
 	 * @Version：
 	 * @Description:
 	 * 
@@ -110,7 +110,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:21:28}
+	 * @Author: zhengde zhou {2014-04-08 2:21:28}
 	 * @Version：
 	 * @Title: createTable
 	 * @Description:
@@ -127,7 +127,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:21:36}
+	 * @Author: zhengde zhou {2014-04-08 2:21:36}
 	 * @Version：
 	 * @Title: isTableExists
 	 * @Description:
@@ -146,7 +146,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:21:41}
+	 * @Author: zhengde zhou {2014-04-08 2:21:41}
 	 * @Version：
 	 * @Title: deleteTable
 	 * @Description:
@@ -164,7 +164,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 9:53:26}
+	 * @Author: zhengde zhou {2014-04-08 9:53:26}
 	 * @Version：
 	 * @Title: findAll
 	 * @Description:
@@ -208,7 +208,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 9:54:31}
+	 * @Author: zhengde zhou {2014-04-08 9:54:31}
 	 * @Version：
 	 * @Title: findByFilter
 	 * @Description:
@@ -254,7 +254,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:22:04}
+	 * @Author: zhengde zhou {2014-04-08 2:22:04}
 	 * @Version：
 	 * @Title: find
 	 * @Description:
@@ -279,7 +279,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:22:12}
+	 * @Author: zhengde zhou {2014-04-08 2:22:12}
 	 * @Version：
 	 * @Title: find
 	 * @Description:
@@ -304,7 +304,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:22:22}
+	 * @Author: zhengde zhou {2014-04-08 2:22:22}
 	 * @Version：
 	 * @Title: deleteHBase
 	 * @Description:
@@ -326,7 +326,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:22:30}
+	 * @Author: zhengde zhou {2014-04-08 2:22:30}
 	 * @Version：
 	 * @Title: deleteSolr
 	 * @Description:
@@ -344,7 +344,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:22:36}
+	 * @Author: zhengde zhou {2014-04-08 2:22:36}
 	 * @Version：
 	 * @Title: saveHBase
 	 * @Description:
@@ -366,7 +366,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:22:42}
+	 * @Author: zhengde zhou {2014-04-08 2:22:42}
 	 * @Version：
 	 * @Title: saveSolr
 	 * @Description:
@@ -384,7 +384,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:22:51}
+	 * @Author: zhengde zhou {2014-04-08 2:22:51}
 	 * @Version：
 	 * @Title: updateSolr
 	 * @Description:
@@ -402,7 +402,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 2:22:58}
+	 * @Author: zhengde zhou {2014-04-08 2:22:58}
 	 * @Version：
 	 * @Title: findBySolr
 	 * @Description:
@@ -431,7 +431,7 @@ public class HBaseSolrRespository {
 	}
 
 	/**
-	 * @Author: seeker {2014-04-08 10:21:27}
+	 * @Author: zhengde zhou {2014-04-08 10:21:27}
 	 * @Version：
 	 * @Title: pageBySolr
 	 * @Description:

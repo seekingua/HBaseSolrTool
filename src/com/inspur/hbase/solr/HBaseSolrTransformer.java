@@ -11,7 +11,7 @@ import org.apache.solr.handler.dataimport.Transformer;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: seeker {2014-04-08 3:05:53}
+ * @Author: zhengde zhou {2014-04-08 3:05:53}
  * @Mail: zzd338@163.com
  * 
  * @ClassName: HBaseSolrTransformer
