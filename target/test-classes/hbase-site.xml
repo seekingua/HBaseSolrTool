@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+/**
+ * Copyright 2010 The Apache Software Foundation
+ *
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<configuration>
+	
+	
+		<property>
+			<name>hbase.rootdir</name>
+			<value>hdfs://nncluster/hbase945</value>
+			<description>The directory shared by region servers.</description>
+		</property>
+
+		<property>
+			<name>hbase.cluster.distributed</name>
+			<value>true</value>
+		</property>
+		
+
+		<property>
+			<name>hbase.zookeeper.quorum</name>
+			<value>namenode1.police.com,namenode2.police.com,datanode1.police.com</value>
+		</property>
+
+		
+	 <property>
+	    <name>hbase.hregion.memstore.flush.size</name>
+	    <value>20971520</value>
+	    <description>
+	    Memstore will be flushed to disk if size of the memstore
+	    exceeds this number of bytes.  Value is checked by a thread that runs
+	    every hbase.server.thread.wakefrequency.
+	    </description>
+	  </property>		
+	  <property>
+	    <name>hbase.hregion.max.filesize</name>
+	    <value>10737418240</value>
+	    <description>
+	    Maximum HStoreFile size. If any one of a column families' HStoreFiles has
+	    grown to exceed this value, the hosting HRegion is split in two.
+	    Default: 10G.
+	    </description>
+	  </property>	  
+	  <property>
+		  <name>dfs.block.size</name>
+		  <value>10485760</value>
+		  <description>The default block size   67108864 for new files.</description>
+	  </property>
+
+
+
+    <property>
+      <name>zookeeper.znode.parent</name>
+      <value>/hbase945</value>
+    </property>
+	
+		<property>
+			<name>hbase.master.port</name>	
+			<value>60001</value>
+		</property>
+		
+	  <property>
+      <name>hbase.master.info.port</name>
+      <value>60011</value>
+    </property>
+  
+    <property>
+      <name>hbase.regionserver.port</name>
+      <value>60021</value>
+    </property>
+    
+    <property>
+      <name>hbase.regionserver.info.port</name>
+      <value>60031</value>
+    </property>
+  
+    <property>
+      <name>hbase.rest.port</name>
+      <value>8081</value>
+    </property>
+ 
+ 
+     <property>
+       <name>dfs.replication</name>
+       <value>3</value>
+    </property> 
+    
+    
+  <property>
+	    <name>hbase.coprocessor.master.classes</name>
+	    <value>com.codefollower.lealone.hbase.engine.HBaseMasterObserver</value>
+  </property>
+	<property>
+			<name>hbase.coprocessor.region.classes</name>
+<value>org.apache.hadoop.hbase.security.token.TokenProvider,org.apache.hadoop.hbase.security.access.AccessController</value>
+	</property>
+  <property>
+	    <name>hbase.regionserver.impl</name>
+	    <value>com.codefollower.lealone.hbase.engine.HBaseRegionServer</value>
+  </property>
+  
+
+<property>
+<name>hbase.superuser</name>
+<value>admin,hbase,root</value>
+</property>
+
+<property>
+<name>hbase.rpc.engine</name>
+<value>org.apache.hadoop.hbase.ipc.SecureRpcEngine</value>
+</property>
+
+<property>
+<name>hbase.security.authorization</name>
+<value>true</value>
+</property>
+
+<property>
+<name>hbase.coprocessor.master.classes</name>
+<value>org.apache.hadoop.hbase.security.access.AccessController</value>
+</property>
+<property>
+<name>hbase.coprocessor.region.classes</name>
+<value>org.apache.hadoop.hbase.regionserver.ViewEndpoint,org.apache.hadoop.hbase.regionserver.ViewCorprocessorObserver,org.apache.hadoop.hbase.security.token.TokenProvider,org.apache.hadoop.hbase.security.access.AccessController,org.apache.hadoop.hbase.regionserver.IndexRegionObserver,org.apache.hadoop.hbase.regionserver.IndexBuilderEndpoint,org.apache.hadoop.hbase.rowcode.RowCodeRegionObserver,org.apache.hadoop.hbase.rowcode.RowCodeQueryEndpoint,org.apache.hadoop.hbase.regionserver.RegionObserverTest,org.apache.hadoop.hbase.regionserver.SqoopImportCorprocessorObserver,org.apache.hadoop.hbase.coprocessor.RowCountEndPoint</value>
+
+<description></description>
+</property>
+
+	<property>
+		<name>hbase.indexed.INDEXED_SCAN</name>
+		<value>true</value>
+	</property>  
+  
+<!--
+	<property>
+			<name>hbase.security.authentication</name>
+			<value>kerberos</value>
+	</property>
+	<property> 
+			<name>hbase.regionserver.kerberos.principal</name> 
+			<value>hbase/_HOST@POLICE.COM</value> 
+	</property> 
+	<property> 
+			<name>hbase.regionserver.keytab.file</name> 
+			<value>/home/zhouzhd/hbase.keytab</value> 
+	</property>
+	<property> 
+			<name>hbase.master.kerberos.principal</name> 
+			<value>hbase/_HOST@POLICE.COM</value> 
+	</property> 
+	<property> 
+			<name>hbase.master.keytab.file</name> 
+			<value>/home/zhouzhd/hbase.keytab</value> 
+	</property>  
+-->  
+<!--
+  <property>
+    <name>hbase.master.dns.interface</name>
+    <value>eth0</value>
+  </property>
+  <property>
+    <name>hbase.regionserver.dns.interface</name>
+    <value>eth0</value>
+  </property>
+  --> 
+ 
+     
+</configuration>
