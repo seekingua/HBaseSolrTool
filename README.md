@@ -10,7 +10,7 @@ HBaseSolrTool
 	
 	2、	架构说明
 	
-		![](https://github.com/SeekerResource/HBaseSolrTool/raw/master/docs/architecture.png)
+		![Test](https://github.com/SeekerResource/HBaseSolrTool/raw/master/docs/architecture.png)
 	
 	3、	注解说明
 	
