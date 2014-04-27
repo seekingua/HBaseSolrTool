@@ -1,7 +1,7 @@
 HBaseSolrTool
 =============
 
-    HBaseSolrTool目的是解决目前HBase二级索引方案不够完善，无法满足HBase对于综合查询的需求。因此借用Solr的查询功能，满足运行在HBase上应用对于多条件综合查询的要求。
+HBaseSolrTool目的是解决目前HBase二级索引方案不够完善，无法满足HBase对于综合查询的需求。因此借用Solr的查询功能，满足运行在HBase上应用对于多条件综合查询的要求。
 
 
 ###1、	说明
