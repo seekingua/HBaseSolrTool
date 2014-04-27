@@ -12,7 +12,7 @@ HBaseSolrTool
 	
 ###3、	注解说明
 	
-####A、	HTable
+	####A、	HTable
 	
 		public @interface HTable {
 		
@@ -20,9 +20,10 @@ HBaseSolrTool
 		
 		}															   
 	
-####B、	HColumn
+	####B、	HColumn
 	
-		public @interface HColumn {										      
+		public @interface HColumn {	
+		
 			boolean id() default false;   // 是否作为HBase rowkey	
 			
 			boolean index() default false; // 是否是Solr索引	
