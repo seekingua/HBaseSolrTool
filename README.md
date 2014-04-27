@@ -32,9 +32,33 @@ HBaseSolrTool
 			
 			String qualifier() default ""; // qualifier设置，默认存储为属性名      
 		} 																	  
-##4、	API说明
+###4、	API说明
 		
 ![Image text](https://github.com/SeekerResource/HBaseSolrTool/raw/master/docs/api_1.png)
 ![Image text](https://github.com/SeekerResource/HBaseSolrTool/raw/master/docs/api_2.png)
 
 	
+###5、	示例中类Case说明
+
+	@HTable(table = "Case")
+	public class Case {
+		@HColumn(id = true, index = true)
+		private String id;
+		@HColumn(family = "cf", index = true)
+		private String code;
+		@HColumn(family = "cf")
+		private String type1;
+		@HColumn(family = "cf")
+		private String type2;
+		@HColumn(family = "cf", index = true)
+		private String type3;
+		@HColumn(family = "cf", qualifier = "date_q", index = true)
+		private String date;
+		……
+	}
+	1)	@HTable(table = "Case")
+		表注解，该含义是将类Case与HBase表Case关联；
+	2)	@HColumn(id = true, index = true)
+		列注解，含义是该属性将作为HBase rowkey，并且作为Solr的索引列；
+	3)	@HColumn(family = "cf", qualifier = "date_q", index = true)
+		列注解，含义是该属性对应HBase的column family为“cf”，qualifier为“date_q”，并且作为Solr的索引列；
