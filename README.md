@@ -12,7 +12,7 @@ HBaseSolrTool
 	
 ###3、	注解说明
 	
-	####A、	HTable
+####A、	HTable
 	
 		public @interface HTable {
 		
@@ -20,7 +20,7 @@ HBaseSolrTool
 		
 		}															   
 	
-	####B、	HColumn
+####B、	HColumn
 	
 		public @interface HColumn {	
 		
