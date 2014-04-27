@@ -2,7 +2,7 @@ HBaseSolrTool
 =============
 
 	
-	##1、	Demo示例
+	## 1、	Demo示例
 		
 		在目录“src/test/java/com/inspur/hbase/test”中。
 	
