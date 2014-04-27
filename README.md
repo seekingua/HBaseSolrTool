@@ -32,5 +32,9 @@ HBaseSolrTool
 			
 			String qualifier() default ""; // qualifier设置，默认存储为属性名      
 		} 																	  
+##4、	API说明
+		
+![Image text](https://github.com/SeekerResource/HBaseSolrTool/raw/master/docs/api_1.png)
+![Image text](https://github.com/SeekerResource/HBaseSolrTool/raw/master/docs/api_2.png)
 
 	
