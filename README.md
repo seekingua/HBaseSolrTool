@@ -1,16 +1,15 @@
 HBaseSolrTool
 =============
 
-HBaseSolrTool目的是解决目前HBase二级索引方案不够完善，无法满足HBase对于综合查询的需求。因此借用Solr的查询功能，满足运行在HBase上应用对于多条件综合查询的要求。
+HBaseSolrTool目的是解决目前HBase二级索引方案不够完善，无法满足HBase对于综合查询的需求。因此借用Solr的查询功能，满足运行在HBase上的应用对于多条件综合查询的需求。
 
 
-###1、	说明
+###1、	使用说明
 	
 	
-	
-	需要注意问题：
-	1)	搭建Solr环境
-	2)	替换hbase-site.xml文件;
+	1)	因为在HBaseSolrTransformer类中已经硬编码，java bean中必须有id属性，该属性将作为HBase的rowkey；
+	2)	HBaseSolrTool-1.0-SNAPSHOT.jar需要放到solr的lib中；
+	2)	替换hbase-site.xml文件为所使用集群的hbase-site.xml文件;
 	
 ###2、	Demo示例
 	
