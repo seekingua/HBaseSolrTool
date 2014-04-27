@@ -1,3 +1,6 @@
-##1、	Demo示例
+HBaseSolrTool
+=============
+
+###1、	Demo示例
 			
 		
