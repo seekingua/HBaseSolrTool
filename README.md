@@ -10,7 +10,7 @@ HBaseSolrTool
 	
 	2、	架构说明
 	
-		
+		![image](https://github.com/SeekerResource/HBaseSolrTool/blob/master/docs/architecture.png)
 	
 	3、	注解说明
 	
@@ -35,6 +35,7 @@ HBaseSolrTool
 	
 	4、	API说明
 		
-		
+		![image](https://github.com/SeekerResource/HBaseSolrTool/blob/master/docs/api_1.png)
+		![image](https://github.com/SeekerResource/HBaseSolrTool/blob/master/docs/api_2.png)
 			
 		
