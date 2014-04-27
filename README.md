@@ -8,5 +8,5 @@ HBaseSolrTool
 
 ###2、	架构说明
 	
-	![image](https://raw.githubusercontent.com/SeekerResource/HBaseSolrTool/master/docs/architecture.png)
+	![](https://raw.githubusercontent.com/SeekerResource/HBaseSolrTool/master/docs/architecture.png)
 	
