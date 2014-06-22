@@ -8,7 +8,7 @@ HBaseSolrTool目的是解决目前HBase二级索引方案不够完善，无法�
 	
 	
 	1)	因为在HBaseSolrTransformer类中已经硬编码，java bean中必须有id属性，该属性将作为HBase的rowkey；
-	2)	HBaseSolrTool-1.0-SNAPSHOT.jar需要放到solr的lib中；
+	2)	docs中HBaseSolrTool-1.0-SNAPSHOT.jar(可自行通过项目编译)需要放到solr的lib中；
 	3)	替换hbase-site.xml文件为所使用集群的hbase-site.xml文件;
 	
 ###2、	Demo示例
