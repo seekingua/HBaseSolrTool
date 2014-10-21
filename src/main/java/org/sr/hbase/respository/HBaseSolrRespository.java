@@ -31,17 +31,6 @@ import org.sr.hbase.schema.Page;
 /**
  * @Organ: Inspur Group
  * @Teams: Big Data Team
- * @Author: zhouzhd {2014-04-08  2:21:03}
- * @Mail: zzd338@163.com
- * 
- * @ClassName: HBaseSolrRespository
- * @Description:
- * 
- * 
- */
-/**
- * @Organ: Inspur Group
- * @Teams: Big Data Team
  * @Author: zhouzhd {2014-04-08 2:22:47}
  * @Mail: zzd338@163.com
  * 
